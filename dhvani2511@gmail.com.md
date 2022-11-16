@@ -4,9 +4,39 @@
 
 **QAs Total**: 3
 
----
 
-## Q1: What is the difference between project management and product development? And why it is important to understand as a Manager? 
+---
+## Q1: What are the steps to implement Kanban in your organization? 
+**Difficulty:** `Junior`
+
+**Source:**
+https://www.pmi.org/learning/library/integrating-agile-methodology-waterfall-environment-6311
+
+**Answer:**
+
+1. **Understand the Kanban and its need** - 
+The first step is you understand what is Kanban and what is not. Also, make sure you really need this in your organization and how it fits. You should be aware with the limitations of Kanban and terms like WIP limits, swimlanes etc. 
+
+2. **Map and Visualise your workflow** -
+ Map your current work flow to deliver products, from todo to done. Each column represents a step for adding value to a unit of work. You can also add columns to represent Buffer or neccessary wait time in between tasks.  
+Check your recently completed task with the board and compare that if it moves smoothly in all the columns or you need updates in workflow. 
+
+3. **Apply WIP Constraints** - 
+ In kanban, it is important you decide the number of tasks for an individual column at a time. Any new tasks can not be moved to the column until you clear the previous one. 
+More tasks in one column will create chaos. 
+This is the most easy and powerful practice. 
+
+4. **Make Policies Explicit**
+ Define classes like "fixed date", "Standard (FIFO)" , Expedite. Idea behind scheduling this is to avoid delays due to high cost-of-delay items. If we follow FIFO for all, the board will be stuck and low cost-of-delay items will not be able to move up. 
+
+5. **Optimize using scientific method**
+   1. Declare a hypothesis about how a change to board will result in measurable outcome
+   2. Make the change and allow the team to use the board for a period of time. 
+   3. Measure whether it actually improved performance and change it back if it doesn't work.
+
+----- 
+
+## Q2: What is the difference between project management and product development? And why it is important to understand as a Manager? 
 **Difficulty:** `Mid`
 
 **Source:**
