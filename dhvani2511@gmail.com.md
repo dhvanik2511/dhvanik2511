@@ -10,7 +10,8 @@
 **Difficulty:** `Junior`
 
 **Source:**
-https://www.pmi.org/learning/library/integrating-agile-methodology-waterfall-environment-6311
+https://startupsmagazine.co.uk/article-six-steps-implementing-kanban-system-your-organisation
+https://medium.com/startup-patterns/kanban-in-5-easy-steps-68e7bd0647b6
 
 **Answer:**
 
@@ -50,27 +51,30 @@ Projects manage the triple constraint: scope, schedule, and budget (sometimes pe
 
 ---
 
-## Q2: How do you deal with _bugs_ or mistakes in Kanban? Would you move items back on a board?
+## Q3: Why you should not move cards backward in Kanban board? 
 
 **Difficulty**: `Senior`
 
 **Source:**
 
-https://pm.stackexchange.com/questions/3935/kanban-moving-items-back-or-how-do-you-manage-mistakes
+https://djaa.com/kanban-evergreen-dont-move-items-backward-on-the-kanban-board/
+https://kanbanize.com/blog/kanban-blocked/
 
-**Details**:
-
-Given that you have a feature tracking through your Kanban board, the dev marks it done, it's pulled into QA, and the dev pulls in new work. QA fails the item.
-
-Now what? Would you move the item back to the Dev stage? What will you do if you can't move it back into the dev stream as it's full?
 
 **Answer:**
 
-My first advice would be to treat your QA stage as the one **covering both**: _testing_ and _bug fixing_ which basically renders the problem of moving index cards anywhere irrelevant. Developers work in the QA stage (same as testers) when they are fixing production defects. 
+There are 4 main reasons why you should not move any card backward, 
 
-I won't personally **move cards back** as it just adds a lot of hassle. You can have policies that you can violate limits in such situation but chaos introduced isn't worth the value.
+1. **It will violate the rule of WIP Limits**
+    You move your item backwards that means you are moving it to the board which is most likely at its WIP limit. So you break the basic rule of keeping WIP limit and that will give a long WIP list without proper track. 
 
-Other options to consider might be: 
-* You may **"park" features** which didn't pass testing. You may have dedicated subcolumn where you put such features so everyone knows that they require bug-fixing.
-* You may just **visualize status of testing**, e.g. testing started, testing passed, testing failed, with additional visual signal and keep the index cards in QA column.
-* You may **deal with bugs using additional information radiator**, usually not a full-blown Kanban board. Then, again, you keep the index cards in QA stage but you deal with bugs independently.
+2. **You lose the track of metrics**
+Metrics are numbers but it is not only for budget calculators. It is a very strong anchor understanding in and outs of your process. You can use it for prediction and if we move cards randomly it will count time multiple times for the same job. That will make the whole calculation wrong. 
+
+3. **You ruin the flow**
+When you ruin the flow and move cards back and forth how do you know what is happening with the board without watching it individually. A simple glance to your board should give you the current status. With this, this will give you an incomplete picture and you will need to involve other stakeholders to understand the current situation. 
+
+4. **you violate the logic.**
+ A kanban board does not simply mean dividing your process into phases – “you map the series, or sequence, of dominant steps to discover new knowledge.”
+You do not want to move items backward, because – following the learning logic – that would mean that you have “un-learned” something.
+
